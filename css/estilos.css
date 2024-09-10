@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(38, 231, 245);
+}
+
+.uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 181, 192, 0.938);
+    height: 300px;
+}
+
+.dos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(27, 181, 192, 0.856);
+    height: 300px;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(27, 181, 192, 0.685);
+    color: white;
+    text-align: center;
+}
